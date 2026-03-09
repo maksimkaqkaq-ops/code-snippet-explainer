@@ -1,0 +1,48 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Backend (Django)
+# ──────────────────────────────────────────────────────────────────────────────
+backend/.env
+backend/venv/
+backend/env/
+backend/db.sqlite3
+backend/db.sqlite3-journal
+backend/media/
+backend/staticfiles/
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Frontend (React + Vite)
+# ──────────────────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+
+# ──────────────────────────────────────────────────────────────────────────────
+# General / OS / IDE
+# ──────────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
