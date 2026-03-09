@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test -d \"/c/Users/bubuk/OneDrive/Рабочий стол/ai_150_projects/code-snippet-explainer\")",
+      "Bash(pip show django djangorestframework groq django-jazzmin drf-spectacular)",
+      "Bash(pip3 show django)",
+      "Bash(pip show groq)",
+      "Bash(pip show django-jazzmin)",
+      "Bash(pip show djangorestframework-simplejwt)",
+      "Bash(pip show django-cors-headers)",
+      "Bash(pip show python-decouple)",
+      "Bash(pip show psycopg2-binary)",
+      "Bash(python -c \"import groq; print\\(groq.__version__\\)\")",
+      "Bash(python -c \"import jazzmin; print\\(jazzmin.__version__\\)\")",
+      "Bash(python -c \"from groq import Groq; help\\(Groq\\)\")",
+      "Bash(python -c \"import groq; print\\(dir\\(groq\\)\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(python -c \"import rest_framework; print\\(rest_framework.__version__\\)\")",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:django-jazzmin.readthedocs.io)",
+      "WebFetch(domain:console.groq.com)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
